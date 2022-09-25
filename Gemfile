@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
-  gem 'activerecord', '>= 5.2'
-  gem 'actionmailer', '>= 5.2'
+  gem 'activerecord', '>= 6.0.5.1'
+  gem 'actionmailer', '>= 6.0.4.8'
   gem 'bson_ext', '~> 1.3'
   gem 'sqlite3', '~> 1.4'
 
@@ -30,8 +30,8 @@ group :test do
   gem 'rb-fsevent'
   gem 'factory_bot_rails'
   gem 'database_cleaner', '< 1.1.0'
-  gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber', '>= 4.0.0'
+  gem 'cucumber-rails', '>= 2.1.0'
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
