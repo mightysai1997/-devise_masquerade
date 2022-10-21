@@ -5,7 +5,7 @@ gemspec
 
 group :test do
   gem 'activerecord', '>= 5.2'
-  gem 'actionmailer', '>= 5.2'
+  gem 'actionmailer', '>= 6.0.0'
   gem 'bson_ext', '~> 1.3'
   gem 'sqlite3', '~> 1.4'
 
@@ -37,5 +37,5 @@ group :test do
   gem 'chromedriver-helper'
   gem 'launchy'
 
-  gem "nokogiri", ">= 1.10.8"
+  gem "nokogiri", ">= 1.13.9"
 end
