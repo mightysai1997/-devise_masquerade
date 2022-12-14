@@ -5,7 +5,7 @@ gemspec
 
 group :test do
   gem 'activerecord', '>= 5.2'
-  gem 'actionmailer', '>= 5.2'
+  gem 'actionmailer', '>= 6.0.0'
   gem 'bson_ext', '~> 1.3'
   gem 'sqlite3', '~> 1.4'
 
