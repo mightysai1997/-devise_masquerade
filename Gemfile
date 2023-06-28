@@ -5,7 +5,7 @@ gemspec
 
 group :test do
   gem 'activerecord', '>= 5.2'
-  gem 'actionmailer', '>= 5.2'
+  gem 'actionmailer', '>= 6.1.7.4'
   gem 'bson_ext', '~> 1.3'
   gem 'sqlite3', '~> 1.4'
 
@@ -28,10 +28,10 @@ group :test do
 
   gem 'shoulda'
   gem 'rb-fsevent'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 5.2.0'
   gem 'database_cleaner', '< 1.1.0'
   gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', '>= 2.0.0'
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
