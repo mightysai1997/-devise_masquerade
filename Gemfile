@@ -31,7 +31,7 @@ group :test do
   gem 'factory_bot_rails'
   gem 'database_cleaner', '< 1.1.0'
   gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', '>= 3.0.0'
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
